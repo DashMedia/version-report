@@ -1,0 +1,36 @@
+{
+    "name": "dashmedia/version-report",
+    "description": "",
+    "type": "modx-package",
+    "keywords": ["modx","repoman"],
+    "homepage": "https://github.com/dashmedia/version-report",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Jason Carney",
+            "email": "jason@dashmedia.com.au",
+            "homepage" : "https://dashmedia.com.au/"
+        }        
+    ],
+    "support": {
+        "email": "jason@dashmedia.com.au",
+        "issues": "https://github.com/dashmedia/version-report/issues",
+        "wiki": "https://github.com/dashmedia/version-report/wiki",
+        "source": "https://github.com/dashmedia/version-report.git"
+    },    
+    "require": {
+        "php": ">=5.3",
+        "tomwalder/php-gds": "v2.1.0",
+        "google/apiclient": "^1.0"
+    },
+    "autoload": {
+        "classmap":["model/"]
+    },
+    "extra": {
+        "package_name": "VersionReport",
+        "namespace": "versionreport",
+        "version": "0.2.0",
+        "release": "beta",
+        "category":"VersionReport"
+    }
+}

@@ -1,0 +1,17 @@
+Changelog for VerisonReport
+
+VerisonReport 0.2.0-beta
+---------------------------------
+Add timestamp to data stored for referance
+
+VerisonReport 0.1.1-beta
+---------------------------------
+Set timestamp to zero on cache clear to force new data
+
+VerisonReport 0.1.0-beta
+---------------------------------
+Fix for empty API key system setting
+
+VerisonReport 0.0.1-beta
+---------------------------------
+Initial Version

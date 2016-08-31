@@ -1,0 +1,124 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "e4386cd5fe11ec71afe1f4a64a32ac90",
+    "content-hash": "2b934e723a45492d441a57a8439d3b08",
+    "packages": [
+        {
+            "name": "google/apiclient",
+            "version": "v1.1.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/google/google-api-php-client.git",
+                "reference": "85309a3520bb5f53368d43e35fd24f43c9556323"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/google/google-api-php-client/zipball/85309a3520bb5f53368d43e35fd24f43c9556323",
+                "reference": "85309a3520bb5f53368d43e35fd24f43c9556323",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*",
+                "squizlabs/php_codesniffer": "~2.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-v1-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/Google/autoload.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "Client library for Google APIs",
+            "homepage": "http://developers.google.com/api-client-library/php",
+            "keywords": [
+                "google"
+            ],
+            "time": "2016-06-06 21:22:48"
+        },
+        {
+            "name": "tomwalder/php-gds",
+            "version": "v2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tomwalder/php-gds.git",
+                "reference": "997f40aec99d3e2611c584a03c93a30f372b2705"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tomwalder/php-gds/zipball/997f40aec99d3e2611c584a03c93a30f372b2705",
+                "reference": "997f40aec99d3e2611c584a03c93a30f372b2705",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "google/apiclient": "1.1.6",
+                "google/appengine-php-sdk": ">=1.9.22",
+                "phpunit/phpunit": "~4.8",
+                "satooshi/php-coveralls": "dev-master"
+            },
+            "suggest": {
+                "google/apiclient": "Allows you to use the JSON API Gateway/Datastore endpoints. Tested with 1.1.6"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ],
+                "psr-4": {
+                    "GDS\\": "src/GDS/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "src/"
+            ],
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Tom Walder",
+                    "email": "tom@docnet.nu"
+                }
+            ],
+            "description": "Google Cloud Datastore Library for PHP",
+            "homepage": "https://github.com/tomwalder/php-gds",
+            "keywords": [
+                "appengine",
+                "cloud datastore",
+                "datastore",
+                "gae",
+                "google",
+                "nosql"
+            ],
+            "time": "2015-12-07 20:16:31"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3"
+    },
+    "platform-dev": []
+}
